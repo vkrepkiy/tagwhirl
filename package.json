@@ -1,12 +1,12 @@
 {
   "name": "@vkrepkiy/tagwhirl",
   "version": "1.0.0",
-  "description": "Web component displaying tag whirl with customizable CSS animation",
+  "description": "Display list of tags with the animated whirl effect",
   "main": "build/main.js",
   "types": "build/main.d.ts",
   "scripts": {
-    "prepare": "rm -rf && webpack --mode=production",
-    "build:watch": "rm -rf && webpack --mode=development --watch"
+    "prepare": "rm -rf && webpack -p",
+    "build:watch": "rm -rf && webpack -d --watch"
   },
   "repository": {
     "type": "git",
