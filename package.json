@@ -1,12 +1,13 @@
 {
-  "name": "tagwhirl",
+  "name": "@vkrepkiy/tagwhirl",
   "version": "1.0.0",
-  "description": "Web component for displaying tags with CSS3 animation",
+  "description": "Web component displaying tag whirl with customizable CSS animation",
   "main": "build/main.js",
   "types": "build/main.d.ts",
   "scripts": {
     "prepare": "rm -rf build && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:watch": "rm -rf build && tsc --watch",
+    "build": "rm -rf build && tsc"
   },
   "repository": {
     "type": "git",
