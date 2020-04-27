@@ -1,0 +1,24 @@
+{
+  "name": "tagwhirl",
+  "version": "1.0.0",
+  "description": "Web component for displaying tags with CSS3 animation",
+  "main": "build/main.js",
+  "types": "build/main.d.ts",
+  "scripts": {
+    "prepare": "rm -rf build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vkrepkiy/tagwhirl.git"
+  },
+  "author": "Valentin Krepkiy <valkrepkiy@gmail.com> (http://v.krepkiy.cloud/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkrepkiy/tagwhirl/issues"
+  },
+  "homepage": "https://github.com/vkrepkiy/tagwhirl#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
