@@ -1,8 +1,10 @@
 # TagWhirl
 
-![TagWhirl preview](./preview.png)
+[![badge](https://img.shields.io/bundlephobia/min/@vkrepkiy/tagwhirl?style=flat-square)](https://www.npmjs.com/package/@vkrepkiy/tagwhirl)
 
-TagWhirl is a web component which allows to visualize any text list with the whirl animation.
+TagWhirl is a Web Component which allows to run complex but CPU friendly animation. CSS stylesheet for animation is calculated once when items are set, so there is no extra code execution. Though it was developed in a series of my free-time experiments, this package is mostly production ready.
+
+![TagWhirl preview](./preview.png)
 
 ## Installation
 
